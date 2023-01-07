@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="104px" height="64px" viewBox="0 0 104 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>stencil_2</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="stencil_2" transform="translate(-0.000000, 0.000000)">
+            <rect id="矩形备份" fill="#161D31" x="0" y="0" width="104" height="64" rx="2"></rect>
+            <rect id="矩形备份-2" fill="#000000" opacity="0.501319" x="8" y="10" width="52" height="28" rx="2"></rect>
+            <rect id="矩形备份-5" fill="#000000" opacity="0.501319" x="8" y="40" width="52" height="14" rx="2"></rect>
+            <rect id="矩形" fill="#000000" opacity="0.501319" x="62" y="10" width="16" height="44" rx="2"></rect>
+            <rect id="矩形备份-4" fill="#000000" opacity="0.501319" x="80" y="10" width="16" height="44" rx="2"></rect>
+            <rect id="矩形备份-2" fill="#13B887" x="82" y="32" width="12" height="2" rx="0.5"></rect>
+            <rect id="矩形备份-6" fill="#EB4D5C" x="82" y="18" width="12" height="2" rx="0.5"></rect>
+            <rect id="矩形备份-6" fill="#13B887" x="82" y="18" width="6" height="2" rx="0.5"></rect>
+        </g>
+    </g>
+</svg>

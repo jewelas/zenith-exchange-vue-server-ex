@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="81px" height="80px" viewBox="0 0 81 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>assets_41</title>
+    <defs>
+        <circle id="path-1" cx="40" cy="40" r="40"></circle>
+        <linearGradient x1="0%" y1="59.529824%" x2="100%" y2="59.529824%" id="linearGradient-3">
+            <stop stop-color="#2762FF" offset="0%"></stop>
+            <stop stop-color="#002790" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-100.0%" y="-100.0%" width="300.0%" height="300.0%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="1" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-100.0%" y="-100.0%" width="300.0%" height="300.0%" filterUnits="objectBoundingBox" id="filter-5">
+            <feGaussianBlur stdDeviation="1" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-100.0%" y="-100.0%" width="300.0%" height="300.0%" filterUnits="objectBoundingBox" id="filter-6">
+            <feGaussianBlur stdDeviation="1" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-75.0%" y="-75.0%" width="250.0%" height="250.0%" filterUnits="objectBoundingBox" id="filter-7">
+            <feGaussianBlur stdDeviation="1" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-75.0%" y="-75.0%" width="250.0%" height="250.0%" filterUnits="objectBoundingBox" id="filter-8">
+            <feGaussianBlur stdDeviation="1" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-75.0%" y="-75.0%" width="250.0%" height="250.0%" filterUnits="objectBoundingBox" id="filter-9">
+            <feGaussianBlur stdDeviation="1" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="72.2615249%" id="radialGradient-10">
+            <stop stop-color="#EDF4F8" offset="0%"></stop>
+            <stop stop-color="#B4BABD" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="assets_41">
+            <g id="Group-4-Copy-8" transform="translate(0.970563, 0.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask-Copy-6" fill="#30374C" fill-rule="nonzero" xlink:href="#path-1"></use>
+                <g id="分组-17-copy" mask="url(#mask-2)">
+                    <g transform="translate(53.529437, 61.500000) scale(-1, 1) translate(-53.529437, -61.500000) translate(39.029437, 47.000000)">
+                        <path d="M1,0 L28,0 C28.5522847,1.74963422e-15 29,0.44771525 29,1 L29,23.4210526 C29,23.9733374 28.5522847,24.4210526 28,24.4210526 L10.7999094,24.4210526 L10.7999094,24.4210526 L3.29636293,29 L3.29636293,24.4210526 L1,24.4210526 C0.44771525,24.4210526 2.25178957e-15,23.9733374 0,23.4210526 L0,1 C-1.78657678e-16,0.44771525 0.44771525,-9.5692398e-18 1,0 Z" id="矩形" fill="url(#linearGradient-3)"></path>
+                        <circle id="椭圆形-copy-5" fill="#008DCE" filter="url(#filter-4)" cx="8.5" cy="12.5" r="1.5"></circle>
+                        <circle id="椭圆形-copy-4" fill="#008DCE" filter="url(#filter-5)" cx="14.5" cy="12.5" r="1.5"></circle>
+                        <circle id="椭圆形-copy-3" fill="#008DCE" filter="url(#filter-6)" cx="21.5" cy="12.5" r="1.5"></circle>
+                        <circle id="椭圆形" fill="#EDF4F8" cx="8.5" cy="12.5" r="1.5"></circle>
+                        <circle id="椭圆形-copy" fill="#EDF4F8" cx="14.5" cy="12.5" r="1.5"></circle>
+                        <circle id="椭圆形-copy-2" fill="#EDF4F8" cx="20.5" cy="12.5" r="1.5"></circle>
+                    </g>
+                </g>
+                <g id="分组-17" mask="url(#mask-2)">
+                    <g transform="translate(11.029437, 31.000000)">
+                        <path d="M1,-1.0658141e-14 L38,-1.0658141e-14 C38.5522847,-1.07595941e-14 39,0.44771525 39,1 L39,31 C39,31.5522847 38.5522847,32 38,32 L14.5240161,32 L14.5240161,32 L4.43303981,38 L4.43303981,32 L1,32 C0.44771525,32 5.11724585e-16,31.5522847 0,31 L0,1 C-6.76353751e-17,0.44771525 0.44771525,-1.0556688e-14 1,-1.0658141e-14 Z" id="矩形" fill="#2762FF"></path>
+                        <circle id="椭圆形-copy-5" fill="#008DCE" filter="url(#filter-7)" cx="11" cy="17" r="2"></circle>
+                        <circle id="椭圆形-copy-4" fill="#008DCE" filter="url(#filter-8)" cx="20" cy="17" r="2"></circle>
+                        <circle id="椭圆形-copy-3" fill="#008DCE" filter="url(#filter-9)" cx="29" cy="17" r="2"></circle>
+                        <circle id="椭圆形" fill="#EDF4F8" cx="10.5" cy="16.5" r="2.5"></circle>
+                        <circle id="椭圆形-copy" fill="#EDF4F8" cx="19.5" cy="16.5" r="2.5"></circle>
+                        <circle id="椭圆形-copy-2" fill="#EDF4F8" cx="28.5" cy="16.5" r="2.5"></circle>
+                    </g>
+                </g>
+            </g>
+            <path d="M68.9012712,5 C69.4849322,5.96326973 69.8778579,7.09177479 70.0800485,8.38551517 L70.1031088,8.55217367 C70.1531602,8.56117612 70.2054668,8.57046724 70.2601639,8.5800485 C71.5399821,8.80423339 72.6684872,9.24464096 73.6456791,9.90127123 C72.6824094,10.4849322 71.5539043,10.8778579 70.2601639,11.0800485 L70.0892772,11.1049874 C70.0862328,11.1229528 70.0831565,11.1412003 70.0800485,11.1597358 C69.8734827,12.3916337 69.456816,13.5536148 68.8300485,14.6456791 C68.206816,13.574697 67.7901494,12.4127158 67.5800485,11.1597358 L67.573146,11.0947943 C67.5448067,11.0899613 67.5157473,11.0850461 67.4859433,11.0800485 C66.2540454,10.8734827 65.0920643,10.456816 64,9.8300485 C65.0709822,9.20681603 66.2329633,8.79014936 67.4859433,8.5800485 L67.5468092,8.5723185 C67.5574729,8.51333674 67.5685518,8.45114687 67.5800485,8.38551517 C67.8042334,7.105697 68.244641,5.97719195 68.9012712,5 Z" id="合并形状" fill="url(#radialGradient-10)"></path>
+            <path d="M5.52636995,34 C5.72260586,34.4993271 5.85471363,35.0843066 5.92269326,35.7549387 C5.93465954,35.8729884 5.94525194,35.9699444 5.95445977,36.0506799 C6.03137582,36.0571339 6.12758148,36.0688067 6.24506127,36.0821543 C6.90847654,36.1575287 7.49345612,36.3056006 8,36.52637 C7.50067293,36.7226059 6.91569336,36.8547136 6.24506127,36.9226933 C6.12609298,36.9347527 6.02854784,36.9454167 5.9474382,36.9546745 C5.94215029,37.0189882 5.93293598,37.0988243 5.92269326,37.1930027 C5.85324261,37.8315777 5.71315278,38.4339101 5.50242376,39 C5.29288328,38.4448384 5.15279345,37.8425059 5.08215426,37.1930027 C5.07178383,37.09765 5.06236033,37.0167193 5.05390375,36.9473678 C4.98799419,36.9429574 4.90531034,36.9333857 4.80699735,36.9226933 C4.16842233,36.8532426 3.56608988,36.7131528 3,36.5024238 C3.55516161,36.2928833 4.15749406,36.1527934 4.80699735,36.0821543 C4.90142868,36.071884 4.9817155,36.0625425 5.0506188,36.0541491 C5.05631201,35.9753887 5.06833561,35.8765649 5.08215426,35.7549387 C5.15752872,35.0915235 5.30560061,34.5065439 5.52636995,34 Z" id="合并形状-copy" fill="url(#radialGradient-10)"></path>
+        </g>
+    </g>
+</svg>

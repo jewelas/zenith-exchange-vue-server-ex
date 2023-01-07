@@ -1,0 +1,1 @@
+module.exports = new RegExp('baidu|hiotc|weifenxi|www.1|www.2|www.3|www.4|www.5|www.6|www.7|www.8|www.9|www.0|example|[$]|clientapi|[[]|www.cloud|www.saas|tomcat|ec2|newtonxchange|binance|wicca-w|eigosapuri|test|customer.bullion|hnxykj|cczg|hifo|oecx|focex|etex|lfcoin|crexvip|bic|kittycoin|siliconcoin|sok|bitmadex|199ex|piratex|fofdax|hidex|zz|jsunbit|927114|cryptotyde', 'i');

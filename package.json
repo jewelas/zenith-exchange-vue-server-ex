@@ -1,0 +1,128 @@
+{
+  "name": "exchange-vue-server",
+  "version": "2.4.29-b-jira-fuzionx01",
+  "description": "",
+  "private": true,
+  "egg": {
+    "declarations": true
+  },
+  "dependencies": {
+    "@babel/helper-compilation-targets": "^7.12.0",
+    "BlockChain-ui": "^2.4.1",
+    "axios": "^0.18.0",
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "babel-plugin-transform-remove-strict-mode": "0.0.2",
+    "bowser": "*",
+    "child_process": "^1.0.2",
+    "crypto": "^1.0.1",
+    "egg": "^2.15.1",
+    "egg-scripts": "^2.11.0",
+    "egg-view-nunjucks": "^2.2.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-eggache": "^1.0.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-jsdoc": "^20.0.5",
+    "file-saver": "^2.0.1",
+    "graphql-request": "^1.8.2",
+    "koa-compress": "^3.0.0",
+    "koa-conditional-get": "^2.0.0",
+    "koa-etag": "^3.0.0",
+    "lodash": "^4.17.11",
+    "mocha": "^6.2.2",
+    "safe-require": "^1.0.3",
+    "tinify": "^1.6.0-beta.2",
+    "v-click-outside-x": "^3.5.6",
+    "vue": "^2.5.17",
+    "vue-i18n": "^8.5.0",
+    "vue-router": "^3.0.1",
+    "vue-script2": "*",
+    "vuescroll": "^4.9.0-beta.18",
+    "vuex": "^3.0.1",
+    "xlsx": "^0.14.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "3.12.1",
+    "@vue/cli-plugin-eslint": "^3.2.1",
+    "@vue/cli-service": "^3.2.0",
+    "@vue/eslint-config-airbnb": "^4.0.0",
+    "autod": "^3.0.1",
+    "autod-egg": "^1.1.0",
+    "babel-eslint": "^10.0.1",
+    "core-js": "2.6.1",
+    "egg-bin": "^4.11.0",
+    "egg-ci": "^1.11.0",
+    "egg-mock": "^3.21.0",
+    "eslint": "^5.13.0",
+    "eslint-config-egg": "^7.1.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-vue": "^5.0.0-0",
+    "lint-staged": "^7.2.2",
+    "rimraf": "^2.7.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "vue-template-compiler": "^2.5.17"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "scripts": {
+    "start": "egg-scripts start --daemon --title=egg-server-exchange-vue-server",
+    "start-exchange-vue-server-ex": "egg-scripts start --daemon --title=exchange-vue-server-ex --buildEnv=ex --port=8108 --env=prod --workers=4",
+    "start-exchange-vue-server-otc": "egg-scripts start --daemon --title=exchange-vue-server-otc --buildEnv=otc --port=8118 --env=prod --workers=4",
+    "start-exchange-vue-server-co": "egg-scripts start --daemon --title=exchange-vue-server-co --buildEnv=co --port=8128 --env=prod --workers=4",
+    "startTestEx": "egg-scripts start --buildEnv=ex --testEnv=true --port=7001 --title=exchange-vue-server-Ex --env=prod --workers=4",
+    "startTestOtc": "egg-scripts start --buildEnv=otc --testEnv=true --port=7002 --title=exchange-vue-server-Otc --env=prod --workers=4",
+    "startTestCo": "egg-scripts start --daemon --buildEnv=co --testEnv=true --port=7003 --title=exchange-vue-server-Co --env=prod --workers=4",
+    "stopTestEx": "egg-scripts stop --title=exchange-vue-server-Ex",
+    "stopTestOtc": "egg-scripts stop --title=exchange-vue-server-Otc",
+    "stopTestCo": "egg-scripts stop --title=exchange-vue-server-Co",
+    "stop-exchange-vue-server-ex": "egg-scripts stop --title=exchange-vue-server-ex",
+    "stop-exchange-vue-server-otc": "egg-scripts stop --title=exchange-vue-server-otc",
+    "stop-exchange-vue-server-co": "egg-scripts stop --title=exchange-vue-server-co",
+    "dev": "egg-bin dev --port=9001",
+    "devEx80": "egg-bin dev --buildEnv=ex --port=80",
+    "devOtc80": "egg-bin dev --buildEnv=otc --port=80",
+    "devCo80": "egg-bin dev --buildEnv=co --port=80",
+    "devEx": "egg-bin dev --buildEnv=ex",
+    "devOtc": "egg-bin dev --buildEnv=otc",
+    "devCo": "egg-bin dev --buildEnv=co",
+    "start-exchange-vue-server-ex-test": "egg-scripts start --daemon --title=exchange-vue-server-ex-test --buildEnv=ex --port=8908 --env=prod",
+    "start-exchange-vue-server-otc-test": "egg-scripts start --daemon --title=exchange-vue-server-otc-test --buildEnv=otc --port=8918 --env=prod",
+    "stop-exchange-vue-server-ex-test": "egg-scripts stop --title=exchange-vue-server-ex-test",
+    "stop-exchange-vue-server-otc-test": "egg-scripts stop --title=exchange-vue-server-otc-test",
+    "debug": "egg-bin debug",
+    "test": "npm run lint -- --fix && npm run test-local",
+    "test-local": "egg-bin test",
+    "cov": "egg-bin cov",
+    "ci": "npm run lint && npm run cov",
+    "autod": "autod",
+    "serve": "npm run formatLocale && vue-cli-service serve",
+    "build": "npm run createWebWorkerMap && vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "formatLocale": "node ./node_modules/BlockChain-ui/webpack-plugin/remove-webWorkerHash.js && node ./node_modules/BlockChain-ui/webpack-plugin/format-locale.js",
+    "createWebWorkerMap": "node ./node_modules/BlockChain-ui/webpack-plugin/create-webWorker.js && node ./node_modules/BlockChain-ui/webpack-plugin/format-locale.js"
+  },
+  "ci": {
+    "version": "10"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "MIT",
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.js": [
+      "vue-cli-service lint",
+      "git add"
+    ],
+    "*.vue": [
+      "vue-cli-service lint",
+      "git add"
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var getCookie = function (name) {
+        var arrd = null;
+        var reg = new RegExp('(^| )' + name + '=([^;]*)(;|$)');
+        if (document.cookie.match(reg)) {
+            arrd = document.cookie.match(reg);
+            return unescape(arrd[2]);
+        }
+        return null;
+    };
+    var lanList = {{ lanList | dump | safe }};
+    var cookieLan = getCookie('lan');
+    var defLan = "{{defLan}}";
+    var lang = window.location.href.match(/[a-z]{2}_[A-Z]{2}/);
+    var lan = defLan;
+    var hashCookieLan = false;
+    if (Object.prototype.toString.call(lanList) === '[object Array]' && lanList.length){
+        for(var i = 0, len = lanList.length; i < len; i++){
+            if (lanList[i].id === cookieLan){
+                hashCookieLan = true;
+            }
+        }
+    }
+    if (cookieLan && hashCookieLan){
+        lan = cookieLan;
+    }
+    if (lang){
+        location.href = location.href.replace(/[a-z]{2}_[A-Z]{2}/, lan);
+    }else{
+        location.href = location.origin + '/'
+            + lan + location.pathname
+            + location.search + location.hash;
+    }
+</script>
+</body>
+</html>

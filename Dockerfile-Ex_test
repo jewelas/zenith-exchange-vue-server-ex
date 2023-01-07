@@ -1,0 +1,12 @@
+FROM harbor.hiotc.pro/saas-test/node:14.16.1
+#FROM node:14.16.1
+
+WORKDIR /usr/local/chainup/exchange-fe-server-ex
+
+ADD ./ /usr/local/exchange-fe-server-ex
+
+EXPOSE 7001
+
+ENTRYPOINT cp -R /usr/local/exchange-fe-server-ex /usr/local/chainup/ && npm run startTestEx
+#ENTRYPOINT npm run startTestEx
+

@@ -1,0 +1,12 @@
+FROM harbor.hiotc.pro/saas-test/node:14.16.1
+#FROM node:14.16.1
+
+WORKDIR /usr/local/chainup/exchange-fe-server-otc
+
+ADD ./ /usr/local/exchange-fe-server-otc
+
+EXPOSE 7002
+
+ENTRYPOINT cp -R /usr/local/exchange-fe-server-otc /usr/local/chainup/ && npm run startTestOtc
+#ENTRYPOINT npm run startTestOtc
+

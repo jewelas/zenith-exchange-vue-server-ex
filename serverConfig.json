@@ -1,0 +1,5 @@
+{
+  "curlHost": "http://127.0.0.1",
+  "proxy": "/fe-ex-api",
+  "headerHost": ""
+}
